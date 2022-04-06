@@ -48,10 +48,6 @@ public class StringDiffFinder {
 		}
 	}
 	
-	public double similarity(String str1, String str2) {
-		return 1 - (double) difference(str1, str2) / Math.max(str1.length(), str2.length());
-	}
-	
 	/**
 	* 
 	* @return difference of string

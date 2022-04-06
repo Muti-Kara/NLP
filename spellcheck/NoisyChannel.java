@@ -45,7 +45,7 @@ public class NoisyChannel {
 	* @param str
 	* @return
 	 */
-	public ArrayList<ProbableString> probability(String str){
+	public ArrayList<ProbableString> candidates(String str){
 		ArrayList<ProbableString> candidates = new ArrayList<>();
 		for(String word : dictionary){
 			if(word.equals(str)){
